@@ -1,0 +1,19 @@
+//Write an assembly level program  to find and or xor of data internal ram location 31H
+//30H and store on the location 32H 33H 34H
+
+			
+		org 00h
+			mov a,30h//move value of 30h into accumulator
+			anl a,31h//and operation of a and data at 31h location and stores it in a
+			mov 32h,a
+			
+			mov a,30h
+			orl a,31h
+			mov 33h,a
+			
+			mov a,30h
+			xrl a,31h
+			mov 34h,a
+			
+	end
+		
