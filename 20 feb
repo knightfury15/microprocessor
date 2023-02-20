@@ -17,3 +17,12 @@
 			
 	end
 		
+	//write an assembly level program  to  add  2  16 bit hexadecimal  number  stored at internal ram location 30h and 31h
+	// 32h and 33h store at 34h 35h 36h
+		 
+		// 31 30
+		// 33 32
+		// add these two numbers
+		
+	
+		
