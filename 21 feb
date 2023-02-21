@@ -1,0 +1,11 @@
+Write a program to add   2-16-bit number whether numbers are adding 3000H memory address and store the result into 3000H ,3002H,3004H.
+
+1.	load the first data in AX – resister.
+2.	load the second data in BX- register.
+3.	clear CL register.
+4.	Add two data and get the sum in ax register.
+5.	store the sum in memory
+6.	Check the carry if cy is set them to go to next step otherwise got to step #.
+7.	Increment ci register.
+8.	Store the carry in memory.
+9.	Stop
