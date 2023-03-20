@@ -1,0 +1,15 @@
+find the size of delay in the following program if the crystal frequency is 11.0592 MHz 
+
+ORG 00H
+MOV A,#55H
+AGAIN :MOV p1,A
+ACALL DELAY                  //ABSOLUTE CALL
+CPL A                        //COMPLEMENT OF A
+SJMP AGAIN                   //SHORT JUMP (IT GOES AT ACALL AGAIN)
+DELAY :MOV R3,#200
+HERE :DJNZ R3,HERE
+RET
+END
+
+
+
